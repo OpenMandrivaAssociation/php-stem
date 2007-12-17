@@ -14,7 +14,6 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
 Source1:	%{modname}.ini.bz2
 BuildRequires:	php-devel >= 3:5.2.0
 #BuildRequires:	libstemmer-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This stem extension for PHP provides stemming capability for a variety of
