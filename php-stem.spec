@@ -6,7 +6,7 @@
 Summary:	A PHP extension that provides word stemming
 Name:		php-%{modname}
 Version:	1.4.3
-Release:	%mkrel 13
+Release:	%mkrel 14
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/stem/
@@ -14,7 +14,7 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tar.bz2
 Source1:	%{modname}.ini.bz2
 BuildRequires:	php-devel >= 3:5.2.0
 #BuildRequires:	libstemmer-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This stem extension for PHP provides stemming capability for a variety of
