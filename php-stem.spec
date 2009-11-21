@@ -6,7 +6,7 @@
 Summary:	A PHP extension that provides word stemming
 Name:		php-%{modname}
 Version:	1.5.0
-Release:	%mkrel 9
+Release:	%mkrel 10
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/stem/
