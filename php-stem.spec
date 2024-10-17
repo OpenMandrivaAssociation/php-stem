@@ -9,7 +9,7 @@ Version:	1.5.1
 Release:	3
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/stem/
+URL:		https://pecl.php.net/package/stem/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Source1:	%{modname}.ini
 BuildRequires:	php-devel >= 3:5.2.0
